@@ -12,7 +12,7 @@ describe("Robot", function() {
       expect(robot.bearing).toEqual(currentDirection);
     }
   });
-
+ 
   it("invalid robot bearing", function() {
     expect(function() {
       robot.orient("crood");
